@@ -1,0 +1,7 @@
+在anaconda3中新建环境pyQt5 python=3.6
+pip install PyQt5=5.12 (未使用镜像资源，怕版本不匹配)
+pip install PyQt5-tools==5.12 ,保错，没有这个版本，报错的信息里有可以安装的所有版本，从中选择了以5.12为前缀的最低版本
+安装PyQt5-tools时发现又自动安装了一遍PyQt5，推测应该是安装tools就会自动安装对应版本的PyQt5，所以step 2、3的顺序应该换一下
+在anaconda3 prompt输入python，打开后再import PyQt5，未报错
+在电脑路径F:\Ana\envs\pyQt5\Lib\site-packages\pyqt5_tools\Qt\bin中找到designer。exe, 双击打开，正常弹出页面，未报错
+成功安装
